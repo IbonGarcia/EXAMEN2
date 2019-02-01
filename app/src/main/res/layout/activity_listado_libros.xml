@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListadoLibros">
+
+
+    <TextView
+        android:id="@+id/titulo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/listadoLibrosT"/>
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titulo3">
+        <RadioGroup
+            android:id="@+id/grupo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/leidos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/leido"
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/noleidos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/noleidos"
+                android:textSize="20dp"/>
+            <RadioButton
+                android:id="@+id/todos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/todos"
+                android:textSize="20dp"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:layout_below="@id/layout"
+        android:layout_marginBottom="20dp"></ListView>
+    <Button
+        android:id="@+id/volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volver"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:layout_below="@id/lista"
+        android:onClick="volver"/>
+
+</RelativeLayout>

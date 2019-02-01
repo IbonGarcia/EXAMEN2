@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">EXAMEN2</string>
+    <string name="t_principal">-- MENU PRINCIPAL --</string>
+    <string name="b_bbdd">BASE DE DATOS</string>
+    <string name="multimedia">MULTIMEDIA</string>
+    <string name="salir">SALIR</string>
+    <string name="t_libros">Mi Base de Datos de Libros</string>
+    <string name="nuevo">NUEVO LIBRO</string>
+    <string name="listado">LISTADO LIBROS</string>
+    <string name="buscar">BUSCAR LIBRO(S)</string>
+    <string name="tit">TITULO</string>
+    <string name="aut">AUTOR</string>
+    <string name="edit">EDITORIAL</string>
+    <string name="isbn">ISBN</string>
+    <string name="pag">NUM.PAGINAS</string>
+    <string name="leido">LEIDO</string>
+    <string name="t_nuevolibro">DATOS NUEVO LIBRO</string>
+    <string name="insert">INSERTAR</string>
+    <string name="cancel">CANCELAR</string>
+    <string name="volver">VOLVER</string>
+    <string name="listadoLibrosT">Listado de libros</string>
+    <string name="noleidos">No leidos</string>
+    <string name="todos">Todos los libros</string>
+    <string name="t_Multimedia">Sonidos ANIMALES de granja</string>
+    <string name="animales">Animales de Granja</string>
+    <string name="tittle">INFORMACION DETALLADA DEL LIBRO</string>
+    <string name="eliminar">ELIMINAR</string>
+
+</resources>

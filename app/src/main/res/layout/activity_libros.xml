@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Libros">
+
+    <TextView
+        android:id="@+id/titulo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="@string/t_libros"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/nuevo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nuevo"
+        android:layout_below="@id/titulo2"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="nuevo"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/listado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="26dp"
+        android:text="@string/listado"
+        android:layout_below="@id/nuevo"
+        android:onClick="listado"/>
+    <Button
+        android:id="@+id/buscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:text="@string/buscar"
+        android:layout_below="@id/listado"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:onClick="buscar"/>
+
+    <Button
+        android:id="@+id/salir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/titulo2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:text="@string/salir"
+        android:textSize="30dp"
+        android:layout_alignRight="@+id/titulo2"
+        android:onClick="atras"/>
+
+</RelativeLayout>
